@@ -2,42 +2,22 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Title is verified]]>
-    </line>
-    <line>
-      <![CDATA[View Profile is clickableProfile|Mynaukri]]>
-    </line>
-    <line>
-      <![CDATA[Scroll is done and click the upload link]]>
+      <![CDATA[LGH810d9d3b078]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61661" started-at="2017-03-16T05:29:37Z" finished-at="2017-03-16T05:30:39Z">
+  <suite name="Default suite" duration-ms="68780" started-at="2017-03-17T07:20:03Z" finished-at="2017-03-17T07:21:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61661" started-at="2017-03-16T05:29:37Z" finished-at="2017-03-16T05:30:39Z">
-      <class name="com.upload.NaukriUpload">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.upload.NaukriUpload@d2e7d9]" name="preCondition" is-config="true" duration-ms="23114" started-at="2017-03-16T10:59:37Z" finished-at="2017-03-16T11:00:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testUpload()[pri:0, instance:com.upload.NaukriUpload@d2e7d9]" name="testUpload" duration-ms="35960" started-at="2017-03-16T11:00:01Z" finished-at="2017-03-16T11:00:37Z">
+    <test name="Default test" duration-ms="68780" started-at="2017-03-17T07:20:03Z" finished-at="2017-03-17T07:21:11Z">
+      <class name="com.upload.Demo">
+        <test-method status="PASS" signature="testDemo()[pri:0, instance:com.upload.Demo@1fa1d9b]" name="testDemo" duration-ms="68474" started-at="2017-03-17T12:50:03Z" finished-at="2017-03-17T12:51:11Z">
           <reporter-output>
             <line>
-              <![CDATA[Title is verified]]>
-            </line>
-            <line>
-              <![CDATA[View Profile is clickableProfile|Mynaukri]]>
-            </line>
-            <line>
-              <![CDATA[Scroll is done and click the upload link]]>
+              <![CDATA[LGH810d9d3b078]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testUpload -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.upload.NaukriUpload@d2e7d9]" name="postCondition" is-config="true" duration-ms="2504" started-at="2017-03-16T11:00:37Z" finished-at="2017-03-16T11:00:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- com.upload.NaukriUpload -->
+        </test-method> <!-- testDemo -->
+      </class> <!-- com.upload.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
