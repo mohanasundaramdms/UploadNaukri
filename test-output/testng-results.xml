@@ -1,23 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[LGH810d9d3b078]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68780" started-at="2017-03-17T07:20:03Z" finished-at="2017-03-17T07:21:11Z">
+  <suite name="Suite" duration-ms="959" started-at="2017-03-27T13:38:03Z" finished-at="2017-03-27T13:38:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68780" started-at="2017-03-17T07:20:03Z" finished-at="2017-03-17T07:21:11Z">
-      <class name="com.upload.Demo">
-        <test-method status="PASS" signature="testDemo()[pri:0, instance:com.upload.Demo@1fa1d9b]" name="testDemo" duration-ms="68474" started-at="2017-03-17T12:50:03Z" finished-at="2017-03-17T12:51:11Z">
+    <test name="Test" duration-ms="959" started-at="2017-03-27T13:38:03Z" finished-at="2017-03-27T13:38:03Z">
+      <class name="com.scripts.VerifyLogin">
+        <test-method status="FAIL" signature="preTest()[pri:0, instance:com.scripts.VerifyLogin@e45eb6]" name="preTest" is-config="true" duration-ms="0" started-at="2017-03-27T19:08:03Z" finished-at="2017-03-27T19:08:03Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:738)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:111)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:38)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:112)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:302)
+	at org.openqa.selenium.firefox.FirefoxDriver.createCommandExecutor(FirefoxDriver.java:312)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:272)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:267)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:263)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:122)
+	at com.basePage.BaseScript.preTest(BaseScript.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
-            <line>
-              <![CDATA[LGH810d9d3b078]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-      </class> <!-- com.upload.Demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- preTest -->
+        <test-method status="SKIP" signature="testVerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.scripts.VerifyLogin@e45eb6]" name="testVerifyLogin" duration-ms="1" started-at="2017-03-27T19:08:03Z" data-provider="getData" finished-at="2017-03-27T19:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teststudent01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLogin -->
+        <test-method status="SKIP" signature="postTest()[pri:0, instance:com.scripts.VerifyLogin@e45eb6]" name="postTest" is-config="true" duration-ms="0" started-at="2017-03-27T19:08:03Z" finished-at="2017-03-27T19:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.scripts.VerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
